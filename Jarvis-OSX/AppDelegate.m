@@ -7,16 +7,24 @@
 //
 
 #import "AppDelegate.h"
+#import "JVSMenu.h"
 
 @interface AppDelegate ()
 
-@property (weak) IBOutlet NSWindow *window;
+@property (strong, nonatomic) IBOutlet JVSMenu *menu;
+@property (strong, nonatomic) NSStatusItem *statusItem;
+@property (strong, nonatomic) MultipeerClient *multipeer;
+
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    self.statusItem.menu = self.menu;
+    self.statusItem.title = @"Jarvis";
+    self.statusItem.highlightMode = YES;
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

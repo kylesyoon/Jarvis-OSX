@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51235C3C1AC9E59800CD7AFF /* MultipeerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 51235C3B1AC9E59800CD7AFF /* MultipeerClient.m */; };
+		51235C3F1AC9ED9600CD7AFF /* JVSMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 51235C3E1AC9ED9600CD7AFF /* JVSMenu.m */; };
 		51BEF0BC1AC9E25100B0D339 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BEF0BB1AC9E25100B0D339 /* AppDelegate.m */; };
 		51BEF0BE1AC9E25100B0D339 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BEF0BD1AC9E25100B0D339 /* main.m */; };
 		51BEF0C01AC9E25100B0D339 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51BEF0BF1AC9E25100B0D339 /* Images.xcassets */; };
@@ -25,6 +27,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51235C3A1AC9E59800CD7AFF /* MultipeerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipeerClient.h; sourceTree = "<group>"; };
+		51235C3B1AC9E59800CD7AFF /* MultipeerClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipeerClient.m; sourceTree = "<group>"; };
+		51235C3D1AC9ED9600CD7AFF /* JVSMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVSMenu.h; sourceTree = "<group>"; };
+		51235C3E1AC9ED9600CD7AFF /* JVSMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVSMenu.m; sourceTree = "<group>"; };
 		51BEF0B51AC9E25100B0D339 /* Jarvis-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jarvis-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BEF0B91AC9E25100B0D339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51BEF0BA1AC9E25100B0D339 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +84,10 @@
 			children = (
 				51BEF0BA1AC9E25100B0D339 /* AppDelegate.h */,
 				51BEF0BB1AC9E25100B0D339 /* AppDelegate.m */,
+				51235C3A1AC9E59800CD7AFF /* MultipeerClient.h */,
+				51235C3B1AC9E59800CD7AFF /* MultipeerClient.m */,
+				51235C3D1AC9ED9600CD7AFF /* JVSMenu.h */,
+				51235C3E1AC9ED9600CD7AFF /* JVSMenu.m */,
 				51BEF0BF1AC9E25100B0D339 /* Images.xcassets */,
 				51BEF0C11AC9E25100B0D339 /* MainMenu.xib */,
 				51BEF0B81AC9E25100B0D339 /* Supporting Files */,
@@ -210,8 +220,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51235C3F1AC9ED9600CD7AFF /* JVSMenu.m in Sources */,
 				51BEF0BE1AC9E25100B0D339 /* main.m in Sources */,
 				51BEF0BC1AC9E25100B0D339 /* AppDelegate.m in Sources */,
+				51235C3C1AC9E59800CD7AFF /* MultipeerClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +410,7 @@
 				51BEF0D41AC9E25200B0D339 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51BEF0D51AC9E25200B0D339 /* Build configuration list for PBXNativeTarget "Jarvis-OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +419,7 @@
 				51BEF0D71AC9E25200B0D339 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

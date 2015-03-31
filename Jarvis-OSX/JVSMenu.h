@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  JVSMenu.h
 //  Jarvis-OSX
 //
 //  Created by Kyle Yoon on 3/30/15.
@@ -7,9 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "MultipeerClient.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface JVSMenu : NSMenu
 
 @end
-
