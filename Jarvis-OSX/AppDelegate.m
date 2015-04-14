@@ -7,28 +7,31 @@
 //
 
 #import "AppDelegate.h"
-#import "JVSMenu.h"
+#import "JARObjectController.h"
 
-@interface AppDelegate ()
+@interface AppDelegate()
 
-@property (strong, nonatomic) IBOutlet JVSMenu *menu;
 @property (strong, nonatomic) NSStatusItem *statusItem;
-@property (strong, nonatomic) MultipeerClient *multipeer;
+@property (weak) IBOutlet NSMenu *menu;
 
 @end
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
     self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     self.statusItem.menu = self.menu;
     self.statusItem.title = @"Jarvis";
     self.statusItem.highlightMode = YES;
+    JARObjectController *objectController = [[JARObjectController alloc] init];
+    objectController.menu = self.menu;
+    
 }
 
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
+- (void)applicationWillTerminate:(NSNotification *)aNotification
+{
+    
 }
 
 @end

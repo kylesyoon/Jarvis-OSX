@@ -7,7 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "MultipeerClient.h"
+#import "JARMultipeerController.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 

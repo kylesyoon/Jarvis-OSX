@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51235C3C1AC9E59800CD7AFF /* MultipeerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 51235C3B1AC9E59800CD7AFF /* MultipeerClient.m */; };
-		51235C3F1AC9ED9600CD7AFF /* JVSMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 51235C3E1AC9ED9600CD7AFF /* JVSMenu.m */; };
+		51235C3C1AC9E59800CD7AFF /* JARMultipeerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51235C3B1AC9E59800CD7AFF /* JARMultipeerController.m */; };
+		512593B71ACC7BB700AAE184 /* JARConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 512593B61ACC7BB700AAE184 /* JARConstants.m */; };
+		512593BA1ACC83FB00AAE184 /* JARAppleScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 512593B91ACC83FB00AAE184 /* JARAppleScript.m */; };
 		51BEF0BC1AC9E25100B0D339 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BEF0BB1AC9E25100B0D339 /* AppDelegate.m */; };
 		51BEF0BE1AC9E25100B0D339 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BEF0BD1AC9E25100B0D339 /* main.m */; };
 		51BEF0C01AC9E25100B0D339 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51BEF0BF1AC9E25100B0D339 /* Images.xcassets */; };
 		51BEF0C31AC9E25100B0D339 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51BEF0C11AC9E25100B0D339 /* MainMenu.xib */; };
 		51BEF0CF1AC9E25200B0D339 /* Jarvis_OSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BEF0CE1AC9E25200B0D339 /* Jarvis_OSXTests.m */; };
+		51C1EE1C1AD840540081097D /* JARObjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C1EE1B1AD840540081097D /* JARObjectController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		51235C3A1AC9E59800CD7AFF /* MultipeerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipeerClient.h; sourceTree = "<group>"; };
-		51235C3B1AC9E59800CD7AFF /* MultipeerClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipeerClient.m; sourceTree = "<group>"; };
-		51235C3D1AC9ED9600CD7AFF /* JVSMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVSMenu.h; sourceTree = "<group>"; };
-		51235C3E1AC9ED9600CD7AFF /* JVSMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVSMenu.m; sourceTree = "<group>"; };
+		51235C3A1AC9E59800CD7AFF /* JARMultipeerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARMultipeerController.h; sourceTree = "<group>"; };
+		51235C3B1AC9E59800CD7AFF /* JARMultipeerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARMultipeerController.m; sourceTree = "<group>"; };
+		512593B51ACC7BB700AAE184 /* JARConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARConstants.h; sourceTree = "<group>"; };
+		512593B61ACC7BB700AAE184 /* JARConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARConstants.m; sourceTree = "<group>"; };
+		512593B81ACC83FB00AAE184 /* JARAppleScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARAppleScript.h; sourceTree = "<group>"; };
+		512593B91ACC83FB00AAE184 /* JARAppleScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARAppleScript.m; sourceTree = "<group>"; };
 		51BEF0B51AC9E25100B0D339 /* Jarvis-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jarvis-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BEF0B91AC9E25100B0D339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51BEF0BA1AC9E25100B0D339 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,6 +45,8 @@
 		51BEF0C81AC9E25100B0D339 /* Jarvis-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jarvis-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BEF0CD1AC9E25200B0D339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51BEF0CE1AC9E25200B0D339 /* Jarvis_OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jarvis_OSXTests.m; sourceTree = "<group>"; };
+		51C1EE1A1AD840540081097D /* JARObjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARObjectController.h; sourceTree = "<group>"; };
+		51C1EE1B1AD840540081097D /* JARObjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARObjectController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +90,14 @@
 			children = (
 				51BEF0BA1AC9E25100B0D339 /* AppDelegate.h */,
 				51BEF0BB1AC9E25100B0D339 /* AppDelegate.m */,
-				51235C3A1AC9E59800CD7AFF /* MultipeerClient.h */,
-				51235C3B1AC9E59800CD7AFF /* MultipeerClient.m */,
-				51235C3D1AC9ED9600CD7AFF /* JVSMenu.h */,
-				51235C3E1AC9ED9600CD7AFF /* JVSMenu.m */,
+				51C1EE1A1AD840540081097D /* JARObjectController.h */,
+				51C1EE1B1AD840540081097D /* JARObjectController.m */,
+				51235C3A1AC9E59800CD7AFF /* JARMultipeerController.h */,
+				51235C3B1AC9E59800CD7AFF /* JARMultipeerController.m */,
+				512593B81ACC83FB00AAE184 /* JARAppleScript.h */,
+				512593B91ACC83FB00AAE184 /* JARAppleScript.m */,
+				512593B51ACC7BB700AAE184 /* JARConstants.h */,
+				512593B61ACC7BB700AAE184 /* JARConstants.m */,
 				51BEF0BF1AC9E25100B0D339 /* Images.xcassets */,
 				51BEF0C11AC9E25100B0D339 /* MainMenu.xib */,
 				51BEF0B81AC9E25100B0D339 /* Supporting Files */,
@@ -220,10 +230,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51235C3F1AC9ED9600CD7AFF /* JVSMenu.m in Sources */,
+				51C1EE1C1AD840540081097D /* JARObjectController.m in Sources */,
+				512593BA1ACC83FB00AAE184 /* JARAppleScript.m in Sources */,
 				51BEF0BE1AC9E25100B0D339 /* main.m in Sources */,
 				51BEF0BC1AC9E25100B0D339 /* AppDelegate.m in Sources */,
-				51235C3C1AC9E59800CD7AFF /* MultipeerClient.m in Sources */,
+				512593B71ACC7BB700AAE184 /* JARConstants.m in Sources */,
+				51235C3C1AC9E59800CD7AFF /* JARMultipeerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
