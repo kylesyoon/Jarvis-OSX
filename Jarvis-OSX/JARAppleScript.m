@@ -17,8 +17,6 @@
     
     if ([message isEqualToString:MessagePayload.next]) {
         [JARAppleScript rightArrowKeystroke];
-    } else if ([message isEqualToString:MessagePayload.strongNext]) {
-        [JARAppleScript rightArrowKeystrokeWithNumberOfStrokes:20];
     } else if ([message isEqualToString:MessagePayload.back]) {
         [JARAppleScript leftArrowKeystroke];
     } else if ([message isEqualToString:MessagePayload.present]) {
